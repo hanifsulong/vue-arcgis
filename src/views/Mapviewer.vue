@@ -8,7 +8,7 @@ import { loadModules } from 'esri-loader';
 export default {
   name: 'Mapviewer',
   mounted(){
-    const options = { version: '3.28', css: true}
+    const options = { version: '4.11', css: true}
     loadModules(['esri/views/MapView', 'esri/Map'],options)
     .then(([MapView, Map]) => {
       // then we load a web map from an id
