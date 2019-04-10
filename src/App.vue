@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/mapviewer">MapViewer</router-link>
+      <router-link to="/mapviewer">MapViewer</router-link> |
+      <router-link to="/mapviewer328">MapViewer 3.28</router-link>
     </div>
     <router-view/>
   </div>
